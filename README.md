@@ -1,1 +1,0 @@
-# Lista-de-exerc-cios-3-Trimestre
