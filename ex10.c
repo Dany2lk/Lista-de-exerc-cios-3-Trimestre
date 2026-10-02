@@ -1,19 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-    double salario, bonus, total;
-    printf("Salário base (ex.: 1500.00): ");
-    scanf("%lf", &salario);
-    printf("Bônus em porcentagem: ");
-    scanf("%lf", &bonus);
+    char produto[] = "Mouse";
+    int quantidade = 3;
+    float preco = 49.90f;
 
-    if (salario < 0 || bonus < 0) {
-        printf("Valores inválidos.\n");
-        return 0;
-    }
-
-    total = salario + salario * bonus / 100;
-    printf("Salário final: R$ %.2f\n", total);
+    printf("APRESENTAÇÃO DE PRODUTO\n");
+    printf("Produto: %s\n", produto);
+    printf("Quantidade: %d\n", quantidade);
+    printf("Preço: R$ %.2f\n", preco);
     return 0;
 }
-
